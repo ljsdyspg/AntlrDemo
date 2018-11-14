@@ -24,8 +24,7 @@ public class GUI extends BaseErrorListener{
         Collections.reverse(stack);
 
        /* builder.append("rule stack: "+stack+" ");
-        builder.append("line "+line+":"+charPositionInLine+" at "+offendingSymbol+": "+msg);*/
-        System.out.println("锤！");
+        builder.append("line "+line+":"+charPositionInLine+" at "+offendingSymbol+": "+msg);*/System.out.println("锤！");
         System.out.println("line "+line+":"+charPositionInLine+" at "+offendingSymbol+": "+msg);
 
     }
